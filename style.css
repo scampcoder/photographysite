@@ -179,7 +179,15 @@ header {
 }
 /* end of gallery */
 
+/* customers */
+.customers {
+  background: #151f20;
+}
 
+.carousel-indicators {
+  cursor: pointer;
+}
+/* end of customers */
 
 
 
