@@ -42,6 +42,21 @@ $(document).ready(function() {
         $(this).addClass('active-item').siblings().removeClass('active-item')
     })
 //End of active gallery item
+//Pricing animations
+    $(window).scroll(function() {
+        let position = $(this).scrollTop();
+        if(position >= 4300) {
+            $('.card-1').addClass('moveFromLeft');
+            $('.card-2').addClass('moveFromBottom');
+            $('.card-3').addClass('moveFromRight');
+        } else {
+            $('.card-1').removeClass('moveFromLeft');
+            $('.card-2').removeClass('moveFromBottom');
+            $('.card-3').removeClass('moveFromRight');
+        }
+    })
+//End of pricing animations
+
 });
 
 
