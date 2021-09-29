@@ -14,3 +14,7 @@
  - More on using transition/transform style attributes to make engaging buttons
 
  - How to use the scrollTop method in conjunction with variable assingment and the console to figure out the appropriate value of pixels to start animations at
+
+ - More on using linear-gradient, although more exploration is needed
+
+ - Create more interesting forms using CSS to create hidden form labels until user types
