@@ -4,6 +4,7 @@ $(document).ready(function() {
         $('.nav-button').toggleClass('change')
     });
 //End of hamburger toggle
+//Navbar scroll styles
     $(window).scroll(function() {
         let position = $(this).scrollTop();
         if(position >= 200){
@@ -13,6 +14,7 @@ $(document).ready(function() {
         }
     });
 });
+//End of navbar scroll styles
 
 
 
